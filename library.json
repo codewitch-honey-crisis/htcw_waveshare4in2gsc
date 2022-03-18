@@ -17,7 +17,7 @@
     "repository":
     {
         "type": "git",
-        "url": "https://github.com/codewitch-honey-crisis/htcw_waveshare5in65f.git"
+        "url": "https://github.com/codewitch-honey-crisis/htcw_waveshare4in2gsc.git"
     },
     "dependencies": {
         "codewitch-honey-crisis/htcw_gfx": "^1.0.0",
