@@ -1,0 +1,38 @@
+{
+    "name": "htcw_waveshare4in2gsc",
+    "version": "0.9.0",
+    "description": "Provides support for the Waveshare 4.2inch grayscale display device w/ GFX",
+    "keywords": ["epaper","eink","e-paper","e-ink","waveshare","graphics","drawing"],
+    "authors": {
+        "name":"honey the codewitch",
+        "homepage": "https://www.codeproject.com/Members/code-witch"
+    },
+    "license": "MIT",
+    "frameworks": ["arduino"],
+    "platforms": "*",
+    "build": {
+        "unflags": "-std=gnu++11",
+        "flags": "-std=gnu++14"
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/codewitch-honey-crisis/htcw_waveshare5in65f.git"
+    },
+    "dependencies": {
+        "codewitch-honey-crisis/htcw_gfx": "^1.0.0",
+        "codewitch-honey-crisis/htcw_tft_io": "^1.0.1"
+    },
+    "examples": [
+        {
+            "name": "Demo",
+            "base": "examples/demo",
+            "files": [
+                "platformio.ini",
+                "include/image.h",
+                "include/Maziro.h",
+                "src/main.cpp"
+            ]
+        }
+    ]
+}
