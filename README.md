@@ -1,8 +1,8 @@
-# Waveshare 5.65 inch (F) - waveshare5in65f
+# Waveshare 4.2 inch grayscale - waveshare4in2gsc
 
-A GFX enabled device driver for the Waveshare 5.65 inch (F) color e-paper display
+A GFX enabled device driver for the Waveshare 4.2 inch grayscale e-paper display
 
-This library allows GFX to bind to a Waveshare 5.65 inch (F) display so that you can use it as a draw target.
+This library allows GFX to bind to a Waveshare 4.2 inch grayscale display so that you can use it as a draw target.
 
 Documentation for GFX is here: https://www.codeproject.com/Articles/5302085/GFX-Forever-The-Complete-Guide-to-GFX-for-IoT
 
@@ -14,7 +14,7 @@ platform = espressif32
 board = node32s
 framework = arduino
 lib_deps = 
-	codewitch-honey-crisis/htcw_waveshare4in2gsc@^0.9.0
+	codewitch-honey-crisis/htcw_waveshare4in2gsc@^0.9.1
 lib_ldf_mode = deep
 build_unflags=-std=gnu++11
 build_flags=-std=gnu++14

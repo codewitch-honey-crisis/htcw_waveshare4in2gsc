@@ -533,7 +533,7 @@ struct waveshare4in2gsc_mode final {
           m_suspend_bounds(-1,-1,-1,-1),
           m_dithering(dithered) {}
     inline bool initialized() const {
-        return state_holder::instance.is_bw == 1;
+        return state_holder::instance.is_bw == 0;
     }
     gfx::gfx_result initialize() {
         if (0 != state_holder::instance.is_bw) {
@@ -644,7 +644,7 @@ struct waveshare4in2gsc_mode<Driver, 0> final {
                          state_holder::instance.deallocator),
           m_suspend_count(0) {}
     inline bool initialized() const {
-        return state_holder::instance.is_bw == 0;
+        return state_holder::instance.is_bw == 1;
     }
     gfx::gfx_result initialize() {
         if (1 != state_holder::instance.is_bw) {

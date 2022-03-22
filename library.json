@@ -1,6 +1,6 @@
 {
     "name": "htcw_waveshare4in2gsc",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "description": "Provides support for the Waveshare 4.2inch grayscale display device w/ GFX",
     "keywords": ["epaper","eink","e-paper","e-ink","waveshare","graphics","drawing"],
     "authors": {
