@@ -1,6 +1,6 @@
 {
     "name": "htcw_waveshare4in2gsc",
-    "version": "0.9.1",
+    "version": "0.9.2",
     "description": "Provides support for the Waveshare 4.2inch grayscale display device w/ GFX",
     "keywords": ["epaper","eink","e-paper","e-ink","waveshare","graphics","drawing"],
     "authors": {
@@ -20,7 +20,7 @@
         "url": "https://github.com/codewitch-honey-crisis/htcw_waveshare4in2gsc.git"
     },
     "dependencies": {
-        "codewitch-honey-crisis/htcw_gfx": "^1.0.0",
+        "codewitch-honey-crisis/htcw_gfx": "^1.0.2",
         "codewitch-honey-crisis/htcw_tft_io": "^1.0.1"
     },
     "examples": [

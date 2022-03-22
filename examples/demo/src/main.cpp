@@ -1,7 +1,3 @@
-#ifndef BOARD_HAS_PSRAM
-static_assert(false,"PSRAM must be enabled to use this device");
-#endif
-
 #define EPD_HOST    VSPI
 #define PIN_NUM_MISO 19
 #define PIN_NUM_MOSI 23
@@ -14,7 +10,7 @@ static_assert(false,"PSRAM must be enabled to use this device");
 
 #include <Arduino.h>
 #include <tft_io.hpp>
-#include <waveshare5in65f.hpp>
+#include <waveshare4in2gsc.hpp>
 #include <gfx_cpp14.hpp>
 #include "Maziro.h"
 #include "image.h"
